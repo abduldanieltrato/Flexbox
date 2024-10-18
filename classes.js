@@ -1,12 +1,6 @@
-class Pessoa {
-    constructor(nome) {
-        this.nome = nome;
-    }
-    falar(frase) {
-        console.log(this.nome + " disse: " + frase)
-    }
+var contador = 4;
+var mensagem = 'repete';
+while (contador != 0) {
+    console.log(mensagem + " ");
+    contador--;
 }
-
-var pessoa1 = new Pessoa("João");
-
-pessoa1.falar("Estou exausto, uffff!!!!");
