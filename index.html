@@ -16,7 +16,7 @@
             flex-flow: row wrap;
             height: 600px;
             flex: auto;
-            align-content: center;
+            
             flex-direction: row;
 
             background-color: rgb(20, 211, 61);
@@ -34,6 +34,11 @@
             
         }
     </style>
+    <script>
+        function ExibirMensagem() {
+            document.write('Este eh um programa Javascript');
+        }
+    </script>
 </head>
 <body>
     <header>
@@ -64,7 +69,11 @@
         <section>X</section>
         <section>Y</section>
         <section>W</section>
-        <section>Z</section>
+        <section>
+            <button style="background-color: black; color: white; font-size: 2em; font-weight: bolder; padding: 10px;" onclick="ExibirMensagem()";>
+                Clica em mim
+            </button>
+        </section>
     </main>
     <footer>
         
